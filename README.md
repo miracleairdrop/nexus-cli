@@ -5,7 +5,7 @@
 
 # Nexus CLI
 
-A high-performance command-line interface for contributing proofs to the Nexus network.
+Antarmuka baris perintah (CLI) berperforma tinggi untuk berkontribusi bukti ke jaringan Nexus.
 
 <figure>
     <a href="https://beta.nexus.xyz/">
@@ -13,16 +13,15 @@ A high-performance command-line interface for contributing proofs to the Nexus n
     </a>
     <figcaption>
         <strong>Verifiable Computation on a Global Scale</strong><br>
-        We're building a global distributed prover network to unite the world's computers and power a new and better Internet: the Verifiable Internet. Connect to the beta and give it a try today.
+        Kami sedang membangun jaringan prover terdistribusi global untuk menyatukan komputer-komputer di seluruh dunia dan menghadirkan Internet yang baru dan lebih baik: Internet yang Terverifikasi. Hubungkan ke versi beta dan coba sekarang juga.
     </figcaption>
 </figure>
 
 ## Nexus Network
 
-[Nexus](https://nexus.xyz/) is a global distributed prover network that unites the world's computers to power a new and
-better Internet: the Verifiable Internet.
+[Nexus](https://nexus.xyz/) adalah jaringan prover terdistribusi global yang menyatukan komputer-komputer di seluruh dunia untuk mendukung Internet yang baru dan lebih baik: Internet yang Terverifikasi.
 
-There have been several testnets so far:
+Beberapa testnet telah diluncurkan sejauh ini:
 
 - Testnet 0: [October 8 – 28, 2024](https://blog.nexus.xyz/nexus-launches-worlds-first-open-prover-network/)
 - Testnet I: [December 9 – 13, 2024](https://blog.nexus.xyz/the-new-nexus-testnet-is-live/)
@@ -31,81 +30,34 @@ There have been several testnets so far:
 
 ---
 
-## Quick Start
+## Mulai Cepat
 
-### Installation
+### Instalasi
 
-#### Precompiled Binary (Recommended)
+#### Setting Mudah Dengan Bot KajiJP (Recommended)
 
-For the simplest and most reliable installation:
-
-```bash
-curl https://cli.nexus.xyz/ | sh
-```
-
-This will:
-1. Download and install the latest precompiled binary for your platform
-2. Prompt you to accept the Terms of Use
-3. Start the CLI in interactive mode
-
-### Non-Interactive Installation
-
-For automated installations (e.g., in CI):
+Untuk instalasi yang paling sederhana dan paling andal:
 
 ```bash
-curl -sSf https://cli.nexus.xyz/ -o install.sh
-chmod +x install.sh
-NONINTERACTIVE=1 ./install.sh
+git clone https://github.com/kajijp/nexus-cli.git && cd nexus-cli && chmod +x setup.sh
 ```
-
----
-
-## Terms of Use
-
-Use of the CLI is subject to the [Terms of Use](https://nexus.xyz/terms-of-use).
-First-time users running interactively will be prompted to accept these terms.
-
----
-
-## Node ID
-
-During the CLI's startup, you'll be asked for your node ID. To skip prompts in a
-non-interactive environment, manually create a `~/.nexus/config.json` in the
-following format:
-
-```json
-{
-   "node_id": "<YOUR NODE ID>"
-}
+pastikan kalian berada didalam folder `nexus-cli`
+```bash
+./setup.sh && source /root/.bashrc
 ```
+setelah semua terinstall, kalian tinggal menjalankan
+```bash
+./target/release/nexus-network start --node-id 7088803
+```
+jangan lupa untuk mengganti --node-id dengan milik kalian
 
 ---
 
-## Current Limitations
-
-- To submit programs to the network for proving, contact
-  [growth@nexus.xyz](mailto:growth@nexus.xyz).
-
----
-
-## Get Help
-
-- [Network FAQ](https://docs.nexus.xyz/layer-1/network-devnet/faq)
-- [Discord Community](https://discord.gg/nexus-xyz)
-- Technical issues? [Open an issue](https://github.com/nexus-xyz/nexus-cli/issues)
-
----
-
-## Contributing
-
-Interested in contributing to the Nexus Network CLI? Check out our
-[Contributor Guide](./CONTRIBUTING.md) for:
-
-- Development setup instructions
-- How to report issues and submit pull requests
-- Our code of conduct and community guidelines
-- Tips for working with the codebase
-
-For most users, we recommend using the precompiled binaries as described above.
-The contributor guide is intended for those who want to modify or improve the CLI
-itself.
+<br><br><br>
+🔥 Mohon dukungan agar KajiJP semakin berkembang, like dan gabung ke channel kami, sebarkan dan undang teman anda, terima kasih, Insyaallah JP!
+## 🌐 Komunitas KajiJP
+Gabung dan ikuti info terbaru:
+- 💬 [Telegram](https://t.me/kajijp)
+- 🎮 [Facebook](https://facebook.com/kajijp)
+- 🐦 [X / Twitter](https://x.com/wakkajijp)
+- ▶️ [Youtube](https://www.youtube.com/@KajiJP)
