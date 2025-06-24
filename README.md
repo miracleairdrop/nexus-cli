@@ -39,9 +39,9 @@ Beberapa testnet telah diluncurkan sejauh ini:
 Untuk instalasi yang paling sederhana dan paling andal:
 
 ```bash
-git clone https://github.com/kajijp/nexus-cli.git && cd nexus-cli && chmod +x setup.sh
+git clone https://github.com/kajijp/nexus-cli.git && cd nexus-cli/clients/cli/ && chmod +x setup.sh
 ```
-pastikan kalian berada didalam folder `nexus-cli`
+pastikan kalian berada didalam folder `nexus-cli/clients/cli/`
 ```bash
 ./setup.sh && source /root/.bashrc
 ```
