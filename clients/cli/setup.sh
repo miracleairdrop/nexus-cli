@@ -27,7 +27,7 @@ check_container
 
 apt update
 apt upgrade
-apt install build-essential pkg-config libssl-dev git-all
-apt install protobuf-compiler
+apt install -y build-essential pkg-config libssl-dev git-all
+apt install -y protobuf-compiler
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 cargo build --release
