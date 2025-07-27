@@ -30,4 +30,6 @@ apt upgrade
 apt install -y build-essential pkg-config libssl-dev git-all
 apt install -y protobuf-compiler
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+git clone git@github.com:nexus-xyz/nexus-cli.git
+cd nexus-cli/clients/cli
 cargo build --release
