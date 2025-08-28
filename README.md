@@ -39,7 +39,7 @@ Beberapa testnet telah diluncurkan sejauh ini:
 Untuk instalasi yang paling sederhana dan paling andal:
 
 ```bash
-git clone https://github.com/kajijp/nexus-cli.git && cd nexus-cli/clients/cli/ && chmod +x setup.sh
+git clone https://github.com/miracleairdrop/nexus-cli.git && cd nexus-cli/clients/cli/ && chmod +x setup.sh
 ```
 pastikan kalian berada didalam folder `nexus-cli/clients/cli/`
 ```bash
@@ -52,12 +52,12 @@ setelah semua terinstall, kalian tinggal menjalankan
 jangan lupa untuk mengganti --node-id dengan milik kalian
 
 ---
-
 <br><br><br>
-🔥 Mohon dukungan agar KajiJP semakin berkembang, like dan gabung ke channel kami, sebarkan dan undang teman anda, terima kasih, Insyaallah JP!
-## 🌐 Komunitas KajiJP
+🔥 Mohon dukungan agar Miracle Airdrop semakin berkembang, like dan gabung ke channel kami, sebarkan dan undang teman anda, Terima kasih !
+## 🌐 Komunitas Miracle Airdrop
 Gabung dan ikuti info terbaru:
-- 💬 [Telegram](https://t.me/kajijp)
-- 🎮 [Facebook](https://facebook.com/kajijp)
-- 🐦 [X / Twitter](https://x.com/wakkajijp)
-- ▶️ [Youtube](https://www.youtube.com/@KajiJP)
+- 💬 [Telegram](https://t.me/miracleairdrops)
+- 🎮 [Facebook](https://facebook.com/miracleairdrop)
+- 🐦 [X / Twitter](https://x.com/miracle_forum)
+- ▶️ [Youtube](https://www.youtube.com/@miracle_airdrop)
+- 🐙 [Github](https://github.com/miracleairdrop)
